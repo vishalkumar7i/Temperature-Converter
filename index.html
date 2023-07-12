@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+	<title>Temp Convertor</title>
+</head>
+<body>
+	<header class="header">
+
+		<div class="logo">
+			<img src="logo2.png" class="logo_img">
+		</div>
+		<div class="heading">
+			<h1>Temprature Convertor</h1>
+		</div>
+	</header>
+	<div class="main">
+		<div class="reading">
+			<div class="readings">
+				<input type="text" name="celcius" class="temp celcius" placeholder="" id="cel">
+				<label for="cel"><span>&deg;C</span></label>
+			</div>
+			<div class="readings">
+				<input type="text" name="farenhite" class="temp farenhite" placeholder="" id="far">
+				<label for="far"><span>&deg;F</span></label>
+			</div>
+			<div class="readings">
+				<input type="text" name="kelvin" class="temp kelvin" placeholder="" id="kel">
+				<label for="kel"><span>&deg;K</span></label>
+			</div>
+		</div>
+		<div id="progress-bar"></div>
+		<p class="statuss"></p>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
